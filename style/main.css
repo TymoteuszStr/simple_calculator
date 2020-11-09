@@ -2,7 +2,7 @@ body{
     background-color: #5c7c9180;
 
 }
-#container{
+.container{
     width: 450px;
     height: 550px;
     border: 1px solid #dddddd;
@@ -18,7 +18,7 @@ body{
     border-radius: 5px;
     background-color: #808080;
 }
-#result{
+.result{
     width: 80%;
     height: 80px;
     margin-left:auto;
@@ -30,7 +30,7 @@ body{
     -moz-box-shadow: inset 2px 3px 17px -1px rgba(0,0,0,0.15);
     box-shadow: inset 2px 3px 17px -1px rgba(0,0,0,0.15);
 }
-#num-container{
+.num-container{
     width: 80%;
     height: 400px;
     margin-left:auto;
