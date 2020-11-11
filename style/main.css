@@ -1,5 +1,5 @@
 body{
-    background-color: #5c7c9180;
+    background-color: #303030;
     box-sizing: border-box;
 }
 .container{
@@ -17,16 +17,15 @@ body{
     box-shadow: 40px 40px 13px 0px rgba(0,0,0,0.15);
     border-radius: 5px;
     background-color: #808080;
+    padding: 20px;
 }
 
 .result{
-    width: 80%;
+    width: 100%;
     height: 75px;
     margin-left:auto;
     margin-right: auto; 
-    margin-top:20px;
-    border: 1px solid black;
-    background-color: #aaaaaa;
+    background-color: #222222;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -45,37 +44,44 @@ body{
     font-size: 1.1em;
     padding: 4px;
 }
-.num-container{
-    width: 80%;
+.btn_container{
+    width: 100%;
     height: 400px;
     margin-left:auto;
     margin-right: auto; 
     margin-top:20px;
-    border: 1px solid black;
     display: grid;
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: repeat(6,1fr);
     
 }
-.num-container>button{
+.btn_container>button{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
     color: #dddddd;
-    font-size: 16px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #606060;
-    margin: 10px;
+    margin: 7px;
     padding: 0;
     -webkit-box-shadow: 4px 4px 7px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 4px 4px 7px 0px rgba(0,0,0,0.75);
     box-shadow: 4px 4px 7px 0px rgba(0,0,0,0.75);
     border-radius: 5px;
 }
-.num-container>button:hover
+button.enter{
+    background-color: orange;
+}
+button:active{
+    box-shadow: none;
+}
+.btn_container>button:hover
 {
     cursor: pointer;
-    color: #909090;
-    box-shadow: none;
+    color: #303030;
+    opacity: .85;
+
 }
 .zero
 {
