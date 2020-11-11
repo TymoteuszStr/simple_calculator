@@ -3,7 +3,7 @@ body{
     box-sizing: border-box;
 }
 .container{
-    width: 450px;
+    width: 427px;
     height: 550px;
     border: 1px solid #dddddd;
     margin-left: auto;
@@ -18,9 +18,10 @@ body{
     border-radius: 5px;
     background-color: #808080;
 }
+
 .result{
     width: 80%;
-    height: 80px;
+    height: 75px;
     margin-left:auto;
     margin-right: auto; 
     margin-top:20px;
@@ -29,23 +30,20 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    font-family: 'Press Start 2P', cursive;
+    color:#303030;
    
 }
 .first_operation{
     text-align: right;
-    align-items: flex-start;
-    opacity: .7;
-    
+    opacity: .85;
+    font-size: .8em;
+    padding: 4px;    
 }
-input.second_operation{
-    box-sizing: border-box;
-    align-items: flex-end;
-    display: flex;
-    border: none;
-    background-color: #aaaaaa;
+.second_operation{
     text-align: right;
-    width: 100%;
-    font-size: 22px;
+    font-size: 1.1em;
+    padding: 4px;
 }
 .num-container{
     width: 80%;
