@@ -1,4 +1,3 @@
-let toggler = false;
 let result=undefined;
 let num1=undefined;
 let num2=undefined;
@@ -23,13 +22,9 @@ operationBtn.forEach(x => {
 
 function setDigit2(nr){
 
-    if(toggler) 
-    {
         if(nr === '.' && (digital2.innerText.includes('.') || digital2.innerText ==='')) return;
         else if (nr === '0' && digital2.innerText=== '0') return;
         else digital2.innerText += nr;
-    }
-
 }
 
 function setDigit1(operation){
@@ -77,16 +72,8 @@ function calc(){
 }
 function toggle(){
 
-    if(!toggler){
-        toggler = true;
-        document.querySelector('.result').style.background = "#aaaaaa";
-    }
-    else {
-        toggler = false;
-        document.querySelector('.result').style.background = "#222222";
-        digital1.innerText = '';
-        digital2.innerText = '';
-    }
+  digital1.innerText = '';
+  digital2.innerText = '';
 }
 
 function del(){
