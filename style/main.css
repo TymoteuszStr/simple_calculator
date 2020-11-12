@@ -37,12 +37,11 @@ body{
     text-align: right;
     opacity: .85;
     font-size: .8em;
-    padding: 4px;    
+    
 }
 .second_operation{
     text-align: right;
-    font-size: 1.1em;
-    padding: 4px;
+    font-size: 1.3em;
 }
 .btn_container{
     width: 100%;

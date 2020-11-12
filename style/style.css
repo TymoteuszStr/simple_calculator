@@ -6,6 +6,7 @@
 
 body {
   background: #38413f;
+  font-family: 'Roboto', sans-serif;
 }
 
 .container {
@@ -49,7 +50,6 @@ body {
 .result {
   min-height: 75px;
   color: lightgrey;
-  font-family: 'Press Start 2P', cursive;
   width: 100%;
   text-align: right;
   word-wrap: break-word;
@@ -58,7 +58,7 @@ body {
 
 .first_operation {
   min-height: 40px;
-  font-size: 0.8em;
+  font-size: 1.2em;
   opacity: .7;
   margin-bottom: 10px;
   margin-top: 10px;
@@ -66,7 +66,7 @@ body {
 
 .second_operation {
   min-height: 45px;
-  font-size: 1.1em;
+  font-size: 1.7em;
 }
 
 .btn_container {
