@@ -7,13 +7,14 @@ const digital2 = document.querySelector('.second_operation');
 const operationBtn = document.querySelectorAll('.operation');
 const numBtn = document.querySelectorAll('.num');
 
-document.querySelector('.enter').addEventListener('click',()=>{calc();});
-document.querySelector('.ac').addEventListener('click', ()=>{clear();});
-document.querySelector('.del').addEventListener('click', ()=>{del();});
+document.querySelector('.enter').addEventListener('click',calc);;
+document.querySelector('.ac').addEventListener('click', clear);
+document.querySelector('.del').addEventListener('click', del);
 document.addEventListener('keypress', insertNum);
 document.addEventListener('keydown', deleteNum);
 
-document.querySelector(".toggler").addEventListener('click',()=>{tog();});
+document.querySelector(".toggler").addEventListener('click',tog);
+
 function tog(){
     document.querySelector('#style').href="style/main.css";
 }
